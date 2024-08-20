@@ -1,0 +1,1 @@
+docker run -d -p 8888:8888 --name jove -v "%cd%\Jove:/opt/Jove" jove-environment

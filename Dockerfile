@@ -5,8 +5,6 @@ RUN apt-get update && apt-get install -y \
     git \
     && apt-get clean
 
-RUN git clone https://github.com/ganeshutah/Jove.git /opt/Jove 
-
 WORKDIR /opt/Jove
 
 RUN conda update -n base -c defaults conda -y
