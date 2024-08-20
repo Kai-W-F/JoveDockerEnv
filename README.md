@@ -1,12 +1,12 @@
 # How To Use
 
-1. Clone repo
+1. clone repo
 
 2. cd into repo
 
 3. run in order:
-  1. build.bash
-  2. run.bash
+  - build.bash
+  - run.bash
 
 4. in browser:
-  1. localhost:8888
+  - localhost:8888
