@@ -17,3 +17,9 @@
 5. Run command: `./run.bash`
 
 > Everything should be complete go to localhost:8888 and jupyter should be running
+
+6. For export pdf run
+```
+apt install pandoc
+apt install texlive-xetex
+```
