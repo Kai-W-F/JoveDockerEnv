@@ -15,6 +15,12 @@ RUN conda install -y graphviz
 
 RUN pip install graphviz
 
+RUN apt update
+
+RUN apt install pandoc
+
+RUN apt install texlive-xetex 
+
 EXPOSE 8888
 
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
